@@ -33,7 +33,7 @@ body
     position: relative;
     width: 150px;
     height: 150px;
-    /* transform: rotate(270deg); */
+    transform: rotate(270deg); 
 }
 #time .circle svg circle
 {
@@ -47,7 +47,7 @@ body
 #time .circle svg circle:nth-child(2)
 {
     stroke: var(--clr);
-    stroke-dasharray: 4000;
+    stroke-dasharray: 0;
 }
 #time div{
     position: absolute;
